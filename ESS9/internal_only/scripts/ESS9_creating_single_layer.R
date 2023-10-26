@@ -74,7 +74,7 @@ new <- sf::st_crop(ESS9_shp_read, ext(subsetdata))
 
 # Colour plot by dataset
 qpal <- colorFactor(
-  palette = c("#1F78B4", "black", "#D95F02", "#E31A1C", "green"),
+  palette = c("#1F78B4", "black", "green", "#E31A1C", "#D95F02"),
   domain = new$dataset
 )
 
